@@ -9,10 +9,10 @@ def checkio(number):
     
     if number >= 100:
         string += nb[int(number /100)] + "hundred"
-		if (number%100)!=0:
+        if number%100!=0:
 			string+="and"
         number -= int(number/100)*100
-    
+            
     if number >= 20:
         if string != "":
             string += ""
